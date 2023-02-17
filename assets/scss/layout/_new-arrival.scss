@@ -1,0 +1,38 @@
+.arrival-products-items {
+    position: relative;
+    border-radius: 20px;
+
+    .arrival-products-img {
+        background-color: $black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+
+        img {
+            opacity: 0.4 ;
+        }
+    }
+
+    .arrival-product-overlay {
+        position: absolute;
+        bottom: 20px;
+        right: auto;
+        left: auto;
+        color: $white;
+        text-align: center;
+        h4{
+            font-size: 24px;
+            font-weight: 900;
+            font-family: $font-family-base;
+            margin: 0;
+            line-height: 36px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            font-family: $font-family-base;
+            margin: 0;  
+        };
+
+    }
+}

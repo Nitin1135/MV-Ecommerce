@@ -1,0 +1,35 @@
+.process-steps-block{
+    background-color: $primary;
+    padding: 70px 0px;
+    .process-info{
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $font-family-base;
+            line-height: 24px;
+            text-transform: capitalize;
+            margin-bottom: 0px;
+            color: $white;
+        }
+        .process-dcs{
+            font-size: 14px;
+            font-weight: 500;
+            font-family: $font-family-base;
+            line-height: 24px;
+            margin-bottom: 0px;
+            color: $white;
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .process-items{
+        margin: 15px 0px !important;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+
+}
+@media (min-width:320px) and (max-width:767px){
+
+}

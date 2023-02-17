@@ -1,0 +1,29 @@
+.header-banner-section{
+    position: relative;
+    .header-banner-title{
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+        h3{
+            font-family: $font-family-base;
+            font-weight: 500;
+            font-size: 20px;
+            // margin-bottom: 0px;
+            color: $white;
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .header-banner-section{
+        .header-banner-title{
+            h3{
+                font-size: 14px;
+               
+            }
+        }
+    }
+}

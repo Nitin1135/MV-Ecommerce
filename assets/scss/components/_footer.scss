@@ -1,0 +1,114 @@
+.footer-section{
+    background-color: $black;
+    // padding: 100px 0px;
+    .footer-items{
+        .footer-logo{
+            font-family: $font-family-base;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 30px;
+            color: $white;
+            margin-bottom:2 0px;  
+        }
+        h2{
+            font-family: $font-family-base;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: $white;
+            margin-bottom: 20px;
+        }
+        p{
+            color: $white;
+            font-size: 16px;
+        }
+        ul{
+            padding: 0px;
+            li{
+                list-style-type: none;
+                margin-bottom: 10px;
+                color: $white;
+                font-family: $font-family-base;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                
+                a{
+                    font-family: $font-family-base;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $white;
+                    &:hover{
+                        color: $primary;
+                    }
+                }
+            }
+            .address{
+                display: flex;
+                i{
+                    line-height: 21px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        .subscribe-box{
+            margin-top: 40px;
+            .subscribe-search{
+                border: 1px solid #6B6B6B;
+                border-radius: 30px;
+                position: relative;
+               
+                input{
+                    border-radius: 30px;
+                    background-color: $black;
+                    font-family: $font-family-base;
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: $white;
+                    &::placeholder{
+                        font-size: 12px;
+                        background-color: $black;
+                        font-family: $font-family-base;
+                    }
+                }
+                .subscribe-btn{
+                    background-color: $white;
+                    border-radius: 50px;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    bottom: 0px;
+                    padding: 5px 10px 5px 10px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: $font-family-base;
+                    margin: 3px;
+                    color: $black;
+                    &:hover{
+                        background-color: $primary;
+                        color: $white;
+                    }
+                }
+
+            }
+
+        }
+        .social-icons i{
+            margin-right: 10px;
+        }
+    }
+    hr{
+        border: 1px solid $white;
+    }
+    .copyright{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: $font-family-base;
+        color: $white;
+        padding: 20px 0px 30px 0px ;
+        span{
+            color: $primary;
+        };
+    }
+}

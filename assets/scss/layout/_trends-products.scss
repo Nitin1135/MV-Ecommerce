@@ -1,0 +1,158 @@
+.trend-products-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow:1px 2px 20px 0px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    margin: 15px;
+    .trend-products-dsc {
+        padding: 0px 15px;
+        h4{
+            font-size: 14px;
+            font-family: $font-family-base;
+            color: $black;
+            font-weight: 700;
+            line-height: 21px;
+            text-transform: uppercase;
+        }
+        .products-sub-dsc{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+        .size-cate{
+            h5{
+                font-family: $font-family-base;
+                font-weight: 500;
+                font-size: 12px !important;
+                line-height: 21px !important;
+                margin-bottom: 0;
+            }
+            .size-cate-list {
+                span{
+                    font-weight: 600;
+                    font-size: 11px;
+                    line-height: 21px;
+                    text-transform: capitalize;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .trend-color-cate{
+        margin-right: 15px;
+        h5{
+            font-family: $font-family-base;
+            font-weight: 500;
+            font-size: 12px !important;
+            line-height: 21px !important;
+            margin-bottom: 0;
+        }
+        .bg-black,
+        .bg-red,
+        .bg-pink,
+        .bg-green{
+            width: 15px !important;
+            height: 15px !important;
+            border-radius: 50px;
+            display: block;
+            margin-right: 5px;
+            margin-top: 3px;
+        }
+    }
+    .trend-price {
+        margin-right: 20px;
+        h5{
+            font-family: $font-family-base;
+            font-weight: 500;
+            font-size: 12px !important;
+            line-height: 21px !important;
+            margin-bottom: 0;
+        }
+    }
+    .trend-price .products-price{
+        font-weight: 700 !important;
+        font-size: 14px !important;
+        line-height: 21px;
+        margin-bottom: 0;
+    }
+    .product-overlay{
+        margin-top: 30px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        .add-to-bag,
+        .whishlist{
+            box-shadow: 1px 2px 20px 0px rgb(0 0 0 / 0.2);
+            margin: 0px 10px 0px 0px ;
+        }
+        .add-to-bag:hover{
+            background-color: $black !important;
+            color: #fff;
+        }
+    }
+    .trend-products-img{
+        border-radius: 10px;
+    }
+    
+}
+
+
+
+@media (min-width:320px) and (max-width:767px){
+    .trending-product-section .owl-nav{
+        display: none !important;
+    }
+    .trend-products-items{
+        flex-direction: column-reverse !important;
+        // width: 100% !important;
+        .trend-products-cate{
+            justify-content: flex-start !important;
+            align-items: start !important;
+            width: 100% !important;
+        }
+        .product-overlay{
+            width: 100%;
+            display: block !important;
+            .add-to-bag,
+            .whishlist{
+                margin-bottom: 15px !important;
+                width: 100% !important;
+            }
+        }
+        .trend-products-img{
+            width: 100%;
+            margin-bottom: 15px !important;
+        }
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px){
+
+    .trend-products-items{
+        flex-direction: column-reverse !important;
+        // width: 100% !important;
+        .trend-products-cate{
+            justify-content: flex-start !important;
+            align-items: start !important;
+            width: 100% !important;
+        }
+        .product-overlay{
+            width: 100%;
+            display: block !important;
+            .add-to-bag,
+            .whishlist{
+                margin-bottom: 15px !important;
+                width: 100% !important;
+            }
+        }
+        .trend-products-img{
+            width: 100%;
+            margin-bottom: 15px !important;
+        }
+    }
+    
+}

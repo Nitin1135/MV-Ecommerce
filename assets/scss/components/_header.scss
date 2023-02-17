@@ -1,0 +1,288 @@
+.wrapper_body{
+    position: relative; 
+}
+// .header-section{
+//     background-color: #ffffff9c;
+// }
+.header-section{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background-color: #ffffff9c;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 20%);;
+    &.sticky{
+        background-color: $white;
+    }
+    .navbar{
+        .navbar-brand{
+            margin-right: 96px;
+            img{
+                max-width: 104px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 0px 20px;
+                .nav-link{
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: $font-family-base;
+                    &:hover,
+                    &.active{
+                        color: $primary;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    .search-box{
+        position: relative;
+        width: 100%;
+        min-width: 345px;
+        input{
+            border-radius: 30px;
+            background-color: $light-gray;
+            width: 100%;
+            // min-width: 345px;
+        }
+        .search-icons{
+            position: absolute;
+            top: -2px;
+            right: 24px;
+            bottom: 0px;
+            font-size: 24px;
+            color: $black;
+            &:hover{
+                color: $primary;
+            }
+        }
+    }
+    .wishlist-menu a, 
+    .cart-menu a,
+    .user-menu a{
+        font-size: 24px;
+        color: $black;
+        margin: 0px 18px;
+        &:hover{
+            color: $primary;
+        }
+    }
+    .user-menu a:nth-last-child(1){
+        margin-right: 0px;
+    }
+}
+// .header-wrapper{
+//     position: relative;
+//     .main-slider{
+//         margin-top: -80px;
+//     }
+// }
+
+
+
+
+@media (min-width:320px) and (max-width:767px){
+    .header-section .navbar .navbar-nav .nav-item,
+    .header-section .wishlist-menu a, .header-section .cart-menu a, .header-section .user-menu a {
+        margin: 0px 0px !important;
+    }
+    .search-box{
+        min-width: 295px !important;
+        margin-bottom: 15px;
+        input{
+            width: 100% !important;
+            margin-right: 0px !important;
+        }
+       
+    }
+    .navbar-collapse{
+        padding-bottom: 15px;
+    }
+    .slide-caption{
+        bottom: 20px !important;
+        h2{
+            font-size: 18px !important;
+            span{
+                font-size: 18px !important;
+            }
+        }
+        p{
+            font-size: 12px !important; 
+        }
+        .explore-btn {
+            max-width: 200px !important;
+            padding: 7px !important;
+            font-size: 14px !important;
+        }
+    }
+    .owl-dots{
+        display: none !important;
+    }
+    .section-spce{
+        padding: 50px 0px 0px 0px;
+    }
+    .section-title{
+        margin-bottom: 30px !important;
+    }
+    .cate-icon{
+        margin: 0px 15px !important;
+        p{
+            font-size: 12px !important;
+        }
+    }
+    .owl-nav{
+        display: none !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px){
+    .main-slider{
+        margin: 0px !important;
+    }
+    .slide-caption{
+        bottom: 15px !important;
+        h2{
+            font-size: 18px !important;
+            span{
+                font-size: 18px !important;
+            }
+        }
+        p{
+            font-size: 10px !important; 
+        }
+        .explore-btn {
+            padding: 5px !important;
+            font-size: 12px !important;
+        }
+    }
+    .owl-nav{
+        display: none !important;
+    }
+}
+@media (min-width:426px) and (max-width:567px){
+    .main-slider{
+        margin: 0px !important;
+    }
+    .slide-caption{
+        bottom: 15px !important;
+        h2{
+            font-size: 18px !important;
+            span{
+                font-size: 18px !important;
+            }
+        }
+        p{
+            font-size: 10px !important; 
+        }
+        .explore-btn {
+            padding: 5px !important;
+            font-size: 12px !important;
+        }
+    }
+
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .slide-caption{
+        bottom: 50px !important;
+        h2{
+            font-size: 30px !important;
+            span{
+                font-size: 30px !important;
+            }
+        }
+        p{
+            font-size: 14px !important; 
+        }
+        .explore-btn {
+            max-width: 200px !important;
+            padding: 10px !important;
+            font-size: 16px !important;
+        }
+    }
+    .navbar-collapse{
+        padding-bottom: 15px;
+    }
+    .header-section .navbar .navbar-nav .nav-item,
+    .header-section .wishlist-menu a, .header-section .cart-menu a, .header-section .user-menu a {
+        margin: 0px 0px !important;
+    }
+    .search-box{
+        margin-bottom: 15px;
+        input{
+            margin-right: 0px !important;
+        }
+       
+    }
+}
+
+@media (min-width:992px) and (max-width:1023px){
+    .slide-caption{
+        bottom: 90px !important;
+        h2{
+            font-size: 50px !important;
+            span{
+                font-size: 50px !important;
+            }
+        }
+        p{
+            font-size: 18px !important; 
+        }
+        .explore-btn {
+            max-width: 200px !important;
+            padding: 10px !important;
+            font-size: 16px !important;
+        }
+    }
+    .header-section .navbar .navbar-nav .nav-item,
+    .header-section .wishlist-menu a, .header-section .cart-menu a, .header-section .user-menu a {
+        margin: 0px 0px !important;
+    }
+    .search-box{
+        margin-bottom: 15px;
+        input{
+            margin-right: 0px !important;
+        }
+       
+    }
+}
+
+@media (min-width:1024px) and (max-width:1199px){
+    .slide-caption{
+        h2{
+            font-size: 40px !important;
+            span{
+                font-size: 40px !important;
+            }
+        }
+        p{
+            font-size: 16px !important; 
+        }
+        .explore-btn {
+            max-width: 200px !important;
+            padding: 10px !important;
+            font-size: 16px !important;
+        }
+    }
+    .navbar-brand{
+        margin-right: 15px !important;
+        img{
+            max-width: 104px !important;
+        }
+    }
+    .search-box{
+        min-width: 295px !important;
+        input{
+            width: 100%;
+        }
+       
+    }
+}
+
+@media (min-width:1200px){
+
+}

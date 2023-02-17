@@ -1,0 +1,39 @@
+.main-slider{
+    margin-top: -80px;
+}
+
+.slide-caption{
+    position: absolute;
+    left: auto;
+    right: auto;
+    bottom: 150px;
+    
+    h2 {
+        font-family: 'Elsie Swash Caps';
+            font-size: 64px;
+            font-weight: 900;
+        span{
+            font-family: 'Elsie Swash Caps';
+            font-size: 64px;
+            font-weight: 900;
+            background: linear-gradient(90deg, rgba(63, 3, 123, 0.3) -7.48%, #8126C8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+    
+        }
+    }
+    p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+   
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
