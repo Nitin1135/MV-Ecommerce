@@ -1,0 +1,49 @@
+
+
+.alert-successful-modal,
+.alert-cancel-modal{
+    
+    .modal-dialog{
+        max-width: 400px;
+        font-family: $font-family-base !important;
+        
+        .modal-content{
+        border-radius: 20px !important;
+        position: relative;
+        img{
+            border-radius: 20px !important;
+        }
+        .alert-text{
+            position: absolute;
+            top: 50%;
+            bottom: 50%;
+            right: 0px;
+            left: 0px;
+            text-align: center;
+            padding: 30px;
+            text-align: center;
+            h4{
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 39px;
+                color: $black;
+                font-family: $font-family-base;
+            }
+            p{
+                font-weight: 400;
+                font-size: 14px; 
+                color: $black;
+                font-family: $font-family-base;
+            }
+            .continue-shopping-btn{
+                background-color: $darken-green !important;
+                color: $white !important;
+                width: auto;
+                font-family: $font-family-base;
+                }
+        }
+        
+    }
+}
+    
+}

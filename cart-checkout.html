@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MV Contact Page </title>
+    <title>MV cart checkout Page </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -104,7 +104,7 @@
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                                 <li class="breadcrumb-item"><a href="products-category.html">Shop</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Shopping Bag</li>
+                                <li class="breadcrumb-item active" aria-current="page">Cart Checkout</li>
                             </ol>
                         </nav>
                     </div>
@@ -118,140 +118,73 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="product-cart-block">
-                            <div class="product-cart-listout">
-                                <div class="col-md-1">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="" checked>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="product-cart-img">
-                                        <img class="w-100" src="assets/images/products/01.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <!-- <div class="product-cart-block"></div> -->
-                                    <div class="product-cart-dsc">
-                                        <h4>HERE & NOW</h4>
-                                        <p>Women Plain Sweatshirt</p>
-                                        <p>Size : <strong>S</strong></p>
-                                        <div class="color-text">
-                                            colour:
-                                            <span class="clr-tag"></span>
-                                        </div>
-                                        <div class="number cart-num">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1" />
-                                            <span class="plus">+</span>
-                                            <span class="qty-text">Quantity</span>
-                                        </div>
-                                        <div class="cart-price">
-                                            <h3>₹454</h3>
-                                        </div>
-                                        <div class="cart-group-btn">
-                                            <button
-                                                class="btn btn-primary default-btn btn-cart-wishlist">Wishlist</button>
-                                            <div class="remove-cart">
-                                                <a href="#">REMOVE</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div class="product-cart-block delivery-info-block">
+                            <div class="delivery-info-header">
+                                <h3>Delivery Information</h3>
+                                <div class="add-address">
+                                    <button class="add-address-btn btn btn-primary" data-bs-toggle="modal" data-bs-target="#addAdress">+ ADD NEW ADDRESS</button>
                                 </div>
                             </div>
 
-                            <hr>
-
-                            <div class="product-cart-listout">
-                                <div class="col-md-1">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="" >
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="product-cart-img">
-                                        <img class="w-100" src="assets/images/products/01.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <!-- <div class="product-cart-block"></div> -->
-                                    <div class="product-cart-dsc">
-                                        <h4>HERE & NOW</h4>
-                                        <p>Women Plain Sweatshirt</p>
-                                        <p>Size : <strong>S</strong></p>
-                                        <div class="color-text">
-                                            colour:
-                                            <span class="clr-tag"></span>
+                            <div class="address-list-items">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        <div class="address-text-item">
+                                            <p><strong>Nitin Patel</strong></p>
+                                            <p>206-A, Platinum CommercialCenter, Via Char Rasta Rd, opp. VIA Ground, GIDC, Vapi, Gujarat 396195</p>
+                                            <p class="contact-add-info">099247 03447, <span>mail@proactii.com</span></p>
                                         </div>
-                                        <div class="number cart-num">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1" />
-                                            <span class="plus">+</span>
-                                            <span class="qty-text">Quantity</span>
-                                        </div>
-                                        <div class="cart-price">
-                                            <h3>₹454</h3>
-                                        </div>
-                                        <div class="cart-group-btn">
-                                            <button
-                                                class="btn btn-primary default-btn btn-cart-wishlist">Wishlist</button>
-                                            <div class="remove-cart">
-                                                <a href="#">REMOVE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </label>
+                                  </div>
+                                
                             </div>
-                            <hr>
-
-                            <div class="product-cart-listout">
-                                <div class="col-md-1">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="" >
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="product-cart-img">
-                                        <img class="w-100" src="assets/images/products/01.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <!-- <div class="product-cart-block"></div> -->
-                                    <div class="product-cart-dsc">
-                                        <h4>HERE & NOW</h4>
-                                        <p>Women Plain Sweatshirt</p>
-                                        <p>Size : <strong>S</strong></p>
-                                        <div class="color-text">
-                                            colour:
-                                            <span class="clr-tag"></span>
+                            <div class="address-list-items">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        <div class="address-text-item">
+                                            <p><strong>Nitin Patel</strong></p>
+                                            <p>206-A, Platinum CommercialCenter, Via Char Rasta Rd, opp. VIA Ground, GIDC, Vapi, Gujarat 396195</p>
+                                            <p class="contact-add-info">099247 03447, <span>mail@proactii.com</span></p>
                                         </div>
-                                        <div class="number cart-num">
-                                            <span class="minus">-</span>
-                                            <input type="text" value="1" />
-                                            <span class="plus">+</span>
-                                            <span class="qty-text">Quantity</span>
-                                        </div>
-                                        <div class="cart-price">
-                                            <h3>₹454</h3>
-                                        </div>
-                                        <div class="cart-group-btn">
-                                            <button
-                                                class="btn btn-primary default-btn btn-cart-wishlist">Wishlist</button>
-                                            <div class="remove-cart">
-                                                <a href="#">REMOVE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </label>
+                                  </div>
+                                
                             </div>
-
-
+                            <div class="address-list-items">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        <div class="address-text-item">
+                                            <p><strong>Nitin Patel</strong></p>
+                                            <p>206-A, Platinum CommercialCenter, Via Char Rasta Rd, opp. VIA Ground, GIDC, Vapi, Gujarat 396195</p>
+                                            <p class="contact-add-info">099247 03447, <span>mail@proactii.com</span></p>
+                                        </div>
+                                    </label>
+                                  </div>
+                                
+                            </div>
+                            <div class="address-list-items">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        <div class="address-text-item">
+                                            <p><strong>Nitin Patel</strong></p>
+                                            <p>206-A, Platinum CommercialCenter, Via Char Rasta Rd, opp. VIA Ground, GIDC, Vapi, Gujarat 396195</p>
+                                            <p class="contact-add-info">099247 03447, <span>mail@proactii.com</span></p>
+                                        </div>
+                                    </label>
+                                  </div>
+                                
+                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="oreder-summery-block">
                             <h3>Order Summery</h3>
-                            <form class="d-flex align-items-center w-100">
+                            <!-- <form class="d-flex align-items-center w-100">
                                 <div class="d-flex align-items-center apply-coupon-bar w-100">
                                     <input class="form-control w-100" type="search" placeholder="Enter coupon code"
                                         aria-label="Search">
@@ -260,7 +193,23 @@
                                     </a>
                                 </div>
 
-                            </form>
+                            </form> -->
+
+                            <div class="payment-details">
+                                <h4>Payment Details</h4>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Cash On Delivery 
+                                    </label>
+                                  </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Lazerpay
+                                    </label>
+                                  </div>
+                            </div>
 
                             <div>
                                 <form action="">
@@ -289,7 +238,7 @@
 
                                         <div class="text-center my-4">
                                             <button class="btn btn-primary default-btn-two place-order-btn">
-                                                Place order
+                                                Continue
                                             </button>
                                         </div>
                                        
@@ -389,6 +338,114 @@
         </section>
         <!-- End Footer  -->
     </div>
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#alertSuccessfulmodal">
+    Successful modal
+  </button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#alertCancelmodal">
+    Cancel modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade address-form-modal" id="addAdress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Address</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body add-address-form">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">First Name*</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Type here...">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Last Name*</label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="Type here...">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Mobile Number*</label>
+                  <input type="tel" class="form-control" id="inputEmail4" placeholder="Type here...">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Email*</label>
+                  <input type="email" class="form-control" id="inputPassword4" placeholder="Type here...">
+                </div>
+                <div class="col-md-12">
+                  <label for="inputEmail4" class="form-label">Address*</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Type here...">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">City/Town*</label>
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Type here...">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Pincode*</label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="Type here...">
+                </div>
+                <div class="col-12">
+                    <div class="form-check d-flex align-items-center">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label mx-2" for="gridCheck">
+                        Make as a default address
+                      </label>
+                    </div>
+                  </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary default-btn">Cancel</button>
+          <button type="button" class="btn btn-primary default-btn-two">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--successful Modal -->
+  <div class="modal fade alert-successful-modal" id="alertSuccessfulmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        
+      <div class="modal-content">
+        <img class="w-100" src="assets/images/vector/alert-bg1.png" alt="">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="alert-text">
+            <h4>Your order is successful </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="btn btn-primary default-btn continue-shopping-btn">
+                Continue Shopping
+            </button>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+  <!--cancel payment Modal -->
+  <div class="modal fade alert-cancel-modal" id="alertCancelmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        
+      <div class="modal-content">
+        <img class="w-100" src="assets/images/vector/alert-bg2.png" alt="">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="alert-text">
+            <h4>Your order is cancel </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="btn btn-primary default-btn continue-shopping-btn">
+                Continue Shopping
+            </button>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
 
 
 

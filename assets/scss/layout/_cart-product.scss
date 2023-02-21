@@ -9,16 +9,29 @@
 
 .products-cart-section {
     padding: 60px 0px;
+
     .product-cart-block {
         border: 1px solid $gray;
         border-radius: 10px;
         padding: 15px;
+        height: 100%;
+        max-height: 455px;
+        overflow: auto;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            // width: 0 !important;
+            display: none;
+        }
+
         .product-cart-listout {
             display: flex;
             flex-wrap: wrap;
-            .product-cart-img{
+
+            .product-cart-img {
                 margin-right: 30px;
             }
+
             .product-cart-dsc {
                 h4 {
                     font-weight: 600;
@@ -108,6 +121,7 @@
                     line-height: 30px;
                     font-family: $font-family-base;
                     margin-bottom: 0px;
+
                     h3 {
                         font-weight: 700;
                         font-size: 20px;
@@ -141,28 +155,31 @@
     }
 }
 
-.oreder-summery-block{
-    .apply-coupon-bar{
+.oreder-summery-block {
+    .apply-coupon-bar {
         border-radius: 50px;
         background-color: $light-gray;
         position: relative;
         height: 50px;
+
         // max-width: 80%;
-        input{
+        input {
             border-radius: 30px;
             background-color: $light-gray;
             font-family: $font-family-base;
             font-weight: 400;
             font-size: 16px;
             color: $black;
-            &::placeholder{
+
+            &::placeholder {
                 font-size: 16px;
                 // background-color: $gray;
                 font-family: $font-family-base;
             }
         }
     }
-    .apply-coupon-btn{
+
+    .apply-coupon-btn {
         background-color: $darken-green;
         border-radius: 50px;
         position: absolute;
@@ -178,20 +195,32 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        &:hover{
+
+        &:hover {
             background-color: darken($darken-green, 5%);
             color: $white;
         }
 
     }
-   
+    .payment-details{
+        font-family: $font-family-base;
+        h4{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            font-family: $font-family-base;
+            color: $black;
+        }
+    }
+
 }
 
-.oreder-summery-block{
+.oreder-summery-block {
     border: 1px solid $gray;
     border-radius: 10px;
     padding: 15px;
-    h3{
+
+    h3 {
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
@@ -199,28 +228,74 @@
         font-family: $font-family-base;
         margin-bottom: 30px;
     }
-    .payment-table{
+
+    .payment-table {
         margin-top: 30px;
-        span{
+
+        span {
             font-weight: 500;
             font-size: 14px;
             line-height: 21px;
             color: $black;
             font-family: $font-family-base;
         }
-        strong{
+
+        strong {
             // font-weight: 600;
             font-size: 14px;
             line-height: 21px;
             color: $black;
             font-family: $font-family-base;
         }
-        .place-order-btn{
-                width: 100%;
-                max-width: 300px;
-                font-size: 20px;
-                font-family: $font-family-base;
-                font-weight: 600;
+
+        .place-order-btn {
+            width: 100%;
+            max-width: 300px;
+            font-size: 20px;
+            font-family: $font-family-base;
+            font-weight: 600;
         }
     }
+}
+
+
+
+@media (min-width:320px) and (max-width:767px) {
+    .product-cart-listout {
+        .product-cart-img {
+            margin-bottom: 20px;
+        }
+    }
+
+    .oreder-summery-block .apply-coupon-btn {
+        padding: 5px 15px 5px 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .products-cart-section .product-cart-block {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .product-cart-listout {
+        .product-cart-img {
+            margin-bottom: 20px;
+            margin-right: 15px !important;
+        }
+    }
+
+    .oreder-summery-block .apply-coupon-btn {
+        padding: 5px 15px 5px 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .products-cart-section .product-cart-block .product-cart-listout .product-cart-dsc .cart-group-btn .btn-cart-wishlist {
+        padding: 7px 20px !important;
+        margin-right: 20px;
+    }
+
 }

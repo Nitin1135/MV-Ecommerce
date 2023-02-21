@@ -66,12 +66,38 @@
         font-size: 24px;
         color: $black;
         margin: 0px 18px;
+        font-family: $font-family-base;
         &:hover{
             color: $primary;
         }
     }
-    .user-menu a:nth-last-child(1){
-        margin-right: 0px;
+    .cart-menu{
+        position: relative;
+        .cart-badge{
+            position: absolute;
+            top: 0px;
+            right: 3px;
+            background-color: $danger;
+            color: $white;
+            border-radius: 50%;
+            font-family: $font-family-base;
+            font-size: 10px;
+        }
+    }
+    .user-menu{
+        .dropdown-menu a{
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $font-family-base;
+            margin-left: 0px !important;
+        }
+    }
+    .user-menu.btn-group a{
+        margin-right: 0px !important;
+        
+    }
+    .user-menu.btn-group .dropdown-toggle::after{
+        display: none !important;
     }
 }
 // .header-wrapper{

@@ -1,5 +1,11 @@
 .header-banner-section{
     position: relative;
+    overflow: hidden;
+    height: 230px;
+    background-color: $black;
+    img{
+        opacity: 0.4;
+    }
     .header-banner-title{
         position: absolute;
         top: 50%;

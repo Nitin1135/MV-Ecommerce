@@ -260,3 +260,14 @@
   }
 
 
+  .alert-successful-modal,
+  .alert-cancel-modal{
+    .btn-close{
+        position: absolute;
+        top: -25px;
+        right: -25px;
+        background-color: $white !important;
+        border-radius: 50% !important;
+    
+  }
+}

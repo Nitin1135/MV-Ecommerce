@@ -1,0 +1,65 @@
+.delivery-info-block {
+    .delivery-info-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: $font-family-base;
+            margin-bottom: 0px;
+            color: $black;
+        }
+
+        .add-address {
+            .add-address-btn {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                font-family: $font-family-base !important;
+                color: $primary;
+                background-color: $white;
+                &:hover{
+                color: $white;
+                background-color: $primary;
+                }
+            }
+        }
+    }
+
+    .address-list-items {
+        border: 1px solid $gray;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        .address-text-item {
+           
+            p {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                font-family: $font-family-base;
+                margin-bottom: 0px;
+                color: $gray;
+
+                strong {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 24px !important;
+                    font-family: $font-family-base;
+                    color: $black;
+                }
+
+            }
+
+            .contact-add-info {
+                color: lighten($black, 20%) !important;
+
+            }
+        }
+    }
+
+}
