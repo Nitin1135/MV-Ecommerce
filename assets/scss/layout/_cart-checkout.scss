@@ -1,15 +1,11 @@
 .delivery-info-block {
     .delivery-info-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        @extend %flex-between;
         margin-bottom: 20px;
 
         h3 {
-            font-weight: 600;
-            font-size: 16px;
+            @extend %font16-600;
             line-height: 24px;
-            font-family: $font-family-base;
             margin-bottom: 0px;
             color: $black;
         }
@@ -20,11 +16,9 @@
                 font-size: 12px;
                 line-height: 18px;
                 font-family: $font-family-base !important;
-                color: $primary;
-                background-color: $white;
+                @extend %color-primary-bg-white;
                 &:hover{
-                color: $white;
-                background-color: $primary;
+                @extend %color-white-bg-primary;
                 }
             }
         }

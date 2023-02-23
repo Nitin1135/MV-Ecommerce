@@ -28,15 +28,11 @@
                 list-style-type: none;
                 margin-bottom: 10px;
                 color: $white;
-                font-family: $font-family-base;
-                font-weight: 400;
-                font-size: 16px;
+                @extend %font16-400;
                 line-height: 24px;
                 
                 a{
-                    font-family: $font-family-base;
-                    font-weight: 400;
-                    font-size: 16px;
+                    @extend %font16-400;
                     line-height: 24px;
                     color: $white;
                     &:hover{
@@ -61,11 +57,8 @@
                
                 input{
                     border-radius: 30px;
-                    background-color: $black;
-                    font-family: $font-family-base;
-                    font-weight: 400;
-                    font-size: 14px;
-                    color: $white;
+                    @extend %color-white-bg-black;
+                    @extend %font14-400;
                     &::placeholder{
                         font-size: 12px;
                         background-color: $black;
@@ -80,14 +73,11 @@
                     top: 0px;
                     bottom: 0px;
                     padding: 5px 10px 5px 10px;
-                    font-size: 14px;
-                    font-weight: 400;
-                    font-family: $font-family-base;
+                    @extend %font14-400;
                     margin: 3px;
                     color: $black;
                     &:hover{
-                        background-color: $primary;
-                        color: $white;
+                        @extend %color-white-bg-primary;
                     }
                 }
 

@@ -1,0 +1,61 @@
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// font-family , size , wight 
+
+%font14-400{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: $font-family-base;
+}
+
+%font14-600{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $font-family-base;
+}
+
+%font16-400{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: $font-family-base;
+}
+%font16-600{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: $font-family-base;
+}
+%font24-600{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: $font-family-base;
+}
+
+// font color bg color 
+%color-white-bg-black{
+    background-color: $black;
+    color: $white;
+}
+
+%color-black-bg-white{
+    background-color: $white;
+    color: $black;
+}
+
+%color-white-bg-primary{
+    background-color: $primary;
+    color: $white;
+}
+
+%color-primary-bg-white{
+    background-color: $white;
+    color: $primary;
+}

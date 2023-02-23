@@ -27,10 +27,8 @@
         }
 
         .help-center-info p {
-            font-family: $font-family-base;
+            @extend %font14-400;
             color: $black;
-            font-size: 14px;
-            font-weight: 400;
             line-height: 21px;
         }
     }

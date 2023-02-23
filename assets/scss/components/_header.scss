@@ -29,6 +29,7 @@
                     font-size: 18px;
                     font-weight: 400;
                     font-family: $font-family-base;
+                    color: $black;
                     &:hover,
                     &.active{
                         color: $primary;
@@ -82,13 +83,12 @@
             border-radius: 50%;
             font-family: $font-family-base;
             font-size: 10px;
+            padding: 5px 5px
         }
     }
     .user-menu{
         .dropdown-menu a{
-            font-size: 16px;
-            font-weight: 400;
-            font-family: $font-family-base;
+            @extend %font16-400;
             margin-left: 0px !important;
         }
     }

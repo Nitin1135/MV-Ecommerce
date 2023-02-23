@@ -1,8 +1,6 @@
 .filter-products-sidebar{
     .filter-cate-title{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @extend %flex-between;
         border-bottom: 2px solid $light-gray;
         padding: 10px 30px 10px 0px;
         .cate-title {
@@ -30,8 +28,7 @@
             color: $black;
             .count-number{
                 color: $gray;
-                font-weight: 400;
-                font-size: 14px;
+                @extend %font14-400;
                 line-height: 17px;
             }
         }
