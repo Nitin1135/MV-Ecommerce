@@ -18985,6 +18985,7 @@ html, body {
   position: relative;
   width: 100%;
   min-width: 345px;
+  margin-right: 15px;
 }
 .header-section .search-box input {
   border-radius: 30px;
@@ -19020,14 +19021,14 @@ html, body {
 }
 .header-section .cart-menu a .cart-badge {
   position: absolute;
-  top: 0px;
-  right: -14px;
+  top: -1px;
+  right: -9px;
   background-color: #E31E24;
   color: #ffffff;
   border-radius: 50%;
   font-family: "Poppins", sans-serif;
-  font-size: 10px;
-  padding: 5px 5px;
+  font-size: 8px;
+  padding: 3px 3px;
 }
 .header-section .user-menu .dropdown-menu a {
   margin-left: 0px !important;
