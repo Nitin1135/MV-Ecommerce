@@ -2,35 +2,17 @@
 // media queries for responsive designs
 // @mixin media-query($screen-size) {
 //   $screen: map-get($breakpoints, quote($screen-size));
-//   @media (max-width: $screen) {
+//   @media (max-width: $screen) and (min-width: $screen) {
 //     @content;
 //   }
 // }
 
-// @media (min-width:320px) and (max-width:767px){
+// $tablet: "(min-width: 768px) and (max-width: 1023px)";
+// $desktop: "(min-width: 1024px)";  
+ 
 
-// }
-
-// @media (min-width:768px) and (max-width:991px){
-
-// }
-
-// @media (min-width:992px) and (max-width:1023px){
-
-// }
-
-// @media (min-width:1024px) and (max-width:1199px){
-//     .navbar-brand{
-//         margin-right: 96px;
-//         img{
-//             max-width: 104px;
-//         }
+// @media #{$tablet}{
+//     .section-spce{
+//     background-color: red;
 //     }
 // }
-
-// @media (min-width:1200px){
-
-// }
-
-
-// main slider 

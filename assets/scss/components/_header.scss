@@ -72,19 +72,19 @@
             color: $primary;
         }
     }
-    .cart-menu{
+    .cart-menu a{
         position: relative;
-        .cart-badge{
-            position: absolute;
-            top: 0px;
-            right: 3px;
-            background-color: $danger;
-            color: $white;
-            border-radius: 50%;
-            font-family: $font-family-base;
-            font-size: 10px;
-            padding: 5px 5px
-        }
+            .cart-badge{
+                position: absolute;
+                top: 0px;
+                right: -14px;
+                background-color: $danger;
+                color: $white;
+                border-radius: 50%;
+                font-family: $font-family-base;
+                font-size: 10px;
+                padding: 5px 5px
+            }
     }
     .user-menu{
         .dropdown-menu a{
