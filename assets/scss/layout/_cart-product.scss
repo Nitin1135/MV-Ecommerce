@@ -1,6 +1,5 @@
 
 
-
 .products-cart-section {
     padding: 60px 0px;
 
@@ -157,6 +156,7 @@
             background-color: $light-gray;
             @extend %font16-400;
             color: $black;
+            border: 0px;
 
             &::placeholder {
                 @extend %font16-400;

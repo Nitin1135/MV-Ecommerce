@@ -4,6 +4,7 @@
         font-size: 24px !important;
         font-family: $font-family-base;
         font-weight: 500 !important;
+        color: $black;
     }
 }
 
@@ -34,11 +35,13 @@
         background-color: $black;
         &:hover img{
             opacity: 0.4;
+            transition: .6s;
         }
         &:hover .product-overlay{
             display: flex;
-            transition: all 0.10s;
+            // transition: all 0.10s;
             justify-content: space-around;
+            transition: .6s;
         }
         img{
             border-radius: 20px;

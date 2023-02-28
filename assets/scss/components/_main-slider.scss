@@ -6,12 +6,14 @@
     position: absolute;
     left: auto;
     right: auto;
-    bottom: 150px;
+    // bottom: 150px;
+    bottom: 30%;
     
     h2 {
         font-family: 'Elsie Swash Caps';
             font-size: 64px;
             font-weight: 900;
+            color: $black;
         span{
             font-family: 'Elsie Swash Caps';
             font-size: 64px;
@@ -27,6 +29,7 @@
     p{
         font-size: 20px;
         font-weight: 500;
+        color: $black;
     }
    
 }

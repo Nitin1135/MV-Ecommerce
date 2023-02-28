@@ -77,14 +77,14 @@
         position: relative;
             .cart-badge{
                 position: absolute;
-                top: -1px;
+                top: -2px;
                 right: -9px;
                 background-color: $danger;
                 color: $white;
                 border-radius: 50%;
                 font-family: $font-family-base;
                 font-size: 8px;
-                padding: 3px 3px
+                padding: 3px 3px;
             }
     }
     .user-menu{
@@ -129,7 +129,7 @@
         padding-bottom: 15px;
     }
     .slide-caption{
-        bottom: 20px !important;
+        bottom: 20% !important;
         h2{
             font-size: 18px !important;
             span{
@@ -170,7 +170,8 @@
         margin: 0px !important;
     }
     .slide-caption{
-        bottom: 15px !important;
+        bottom: 25% !important;
+        // bottom: 15px !important;
         h2{
             font-size: 18px !important;
             span{
@@ -215,7 +216,7 @@
 
 @media (min-width:768px) and (max-width:991px){
     .slide-caption{
-        bottom: 50px !important;
+        bottom: 30% !important;
         h2{
             font-size: 30px !important;
             span{
