@@ -11,11 +11,12 @@
     right: 0px;
     z-index: 2;
     background-color: #ffffff9c;
-    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 20%);;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 20%);
     &.sticky{
         background-color: $white;
     }
     .navbar{
+        padding: 4px 0px;
         .navbar-brand{
             margin-right: 96px;
             img{
@@ -43,17 +44,20 @@
         position: relative;
         width: 100%;
         min-width: 345px;
-        margin-right: 15px;
+        margin-right: 10px;
         input{
             border-radius: 30px;
-            background-color: $light-gray;
+            background-color: $white;
             width: 100%;
+            padding: 3px 3px 3px 40px;
+            box-shadow: 0px 2px 6px 1px rgb(0 0 0 / 20%);
+            border: 0px;
             // min-width: 345px;
         }
         .search-icons{
             position: absolute;
-            top: 0px;
-            right: 16px;
+            top: -5px;
+            left: 10px;
             bottom: 0px;
             font-size: 24px;
             color: $black;
@@ -67,7 +71,7 @@
     .user-menu a{
         font-size: 24px;
         color: $black;
-        margin: 0px 18px;
+        margin: 0px 15px;
         font-family: $font-family-base;
         &:hover{
             color: $primary;
